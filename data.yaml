@@ -1,0 +1,8 @@
+path: /content/Screening_of_Fresh_and_Rotten/data  # diretório raiz
+
+train: ../train  # train images (relative to 'path')
+val: ../val  # val images (relative to 'path')
+test: ../test  # test images (relative to 'path')
+
+nc: 6
+names: ['FreshBanana', 'RottenBanana', 'FreshMamao', 'RottenMamao', 'FreshTomate', 'RottenTomate']
