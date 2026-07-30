@@ -91,17 +91,17 @@ O modelo apresentou desempenho satisfatório na classificação de alimentos pr�
 Fluxo de processamento:
 
 ```
-Aquisição de imagem
-        ↓
- Pré-processamento
-        ↓
-      YOLOv10n
-        ↓
-Detecção e Classificação
-        ↓
-Bounding Boxes
-        ↓
-Resultado em Tempo Real
+     Aquisição de frame de vídeo
+                ↓
+         Pré-processamento
+                ↓
+          Modelo treinado
+                ↓
+      Detecção e Classificação
+                ↓
+          Bounding Boxes
+                ↓
+      Resultado em Tempo Real
 ```
 
 ---
